@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+	#div{display: grid;
+		 grid-template-columns:
+		 20px repeat(3,1fr) 20px;
+		 grid-template-rows:1fr 1fr 1fr ;
+		 border:2px solid red;
+		 height:500px;
+		 width:350px;
+		 grid-column-gap:10px;
+		 grid-row-gap:2em;
+		}
+	#div {
+		text-align: center;
+	}
+	.one { 
+	      background-color: pink;
+	      grid-column-start: 1;
+	      grid-column-end:3;
+	       }
+	.two {
+		background-color: yellow;
+	}
+	.three {
+		background-color: red
+	}
+	.four {
+		background-color: blue;
+		grid-column-start: 2;
+		grid-column-end: 4
+	}
+	.five {
+		background-color: purple;
+	}
+	.six {
+		background-color: green;
+	}
+	.seven {
+		background-color: grey;
+
+	}
+	.eight {
+		background-color: black;
+	}
+	.nine {
+		background-color: gold;
+		grid-column-start: 3;
+		grid-column-end: 5
+	}
+	</style>
+</head>
+<body>
+<div id="div">
+	<div class="one">1</div>
+	<div class="two">2</div>
+	<div class="three">3</div>
+	<div class="four">4</div>
+	<div class="five">5</div>
+	<div class="six">6</div>
+	<div class="seven">7</div>
+	<div class="eight">8</div>
+	<div class="nine">9</div>
+</div>
+</body>
+</html>
